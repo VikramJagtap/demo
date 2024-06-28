@@ -1,0 +1,383 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.image
+{
+    background-image: url(../images/background/background1.jpg);
+    min-height: 400px;
+    background-position: center;
+    background-size: cover; 
+}
+.title
+{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    letter-spacing: 1.4px;
+    color: white;
+}
+.name
+{
+    color: #ff2f92;
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+}
+.invite{
+    color: #222222;
+font-size: 36px;
+font-family: "Playfair Display", serif;
+}
+.inviate_1
+{
+    max-width: 224px;
+    margin: auto;
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: 300;
+    color:#777777
+}
+.part2
+{
+    /* background-image: url(../images/background/timer-bg.png); */
+    position: relative;
+    background-color:#ff2f92;
+    height: 320px;
+}
+.title1
+{
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+    color: white;
+}
+.bgcolor
+{
+    background-color: aliceblue;
+}
+.timer_number
+{
+    font-size: 36px;
+    font-family: "Playfair Display", serif;
+}
+.timer_label {
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+}
+.inner_timer
+{
+    color: #fff; 
+    width: 90%;
+    margin: 0 auto; 
+}
+.title2
+{
+    font-size: 24px;
+    font-family: "Playfair Display", serif;
+}
+.love_journey
+{
+    font-size: 32px;
+    font-family: "Playfair Display", serif;
+    color: #222222;
+}
+.journey_story
+{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    line-height: 24px;
+}
+/* using element selector */
+.journey_item>h4                
+{
+    color: #222222;
+    font-family: "Playfair Display", serif;
+}
+.journey_item>p
+{
+    font-size: 14px;
+    color: #777777;
+    font-weight: 300;
+}
+.reservation>h2
+{
+    font-family: "Playfair Display", serif;
+    color: #ff2f92;
+    font-size: 26px;
+}
+.main_btn
+{
+    background: #ff2f92;
+    color: #fff;
+    padding: 10px 20px;
+    font-family: "Roboto", sans-serif;
+    border: 1px solid #ff2f92;
+    font-size: 14px;
+    line-height: 80px;
+}
+.main_btn:hover
+{
+    color: #fff;
+}
+.solgan
+{
+   background-image: url(../images/background/pexels.jpg);
+    background-position: center;  
+}
+.date a
+{
+    display: block;
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #222222;
+    font-weight: 500;
+}
+.progress_text
+{
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+}
+.progress_text a{
+    color: #222222;
+}
+.progress_text a:hover
+{
+    color: #ff2f92;
+}
+.progress_story
+{
+    font-size: 14px;
+    font-family: "Roboto", sans-serif;
+    color: #777777;
+    line-height: 24px;
+}
+.couple_name
+{
+   padding-top: 150px;
+} 
+.flex1
+{
+    width: 80%;
+    margin: 0 auto;
+}
+.f_menu
+{
+    list-style-type: none;
+}
+.f_menu li a
+{
+    color: #222222;
+    font-family: "Roboto", sans-serif;
+    font-size: 12px;
+}
+.f_menu li a:hover
+{
+    color: #ff2f92;
+}
+.f_logo li
+{
+ list-style-type: none;  
+}
+.canvasmenu li
+{
+    list-style-type: none;
+}
+/* .f_logo
+{
+    color: #bc1a1a;
+}
+.f_logo li a:hover
+{
+    color: #ff2f92;
+} */
+.f_background
+{
+    background-color: rgb(247, 243, 247);
+   height: 390px; 
+}
+.logo1
+{
+    padding-top: 30px;
+}
+.footer_end a
+{
+    color: #ff2f92;
+    text-decoration: none;
+}
+.m_logo
+{
+    position: relative;
+}
+.f_logo
+{
+    margin-top: 30px;
+   width: 60%;
+}
+.inner_timer1
+{
+    background-color: #fff;
+    opacity: 0.2;  
+}
+.form_button
+{
+    border: 1px solid  #ff2f92;
+    background-color: #ff2f92;
+   color: white; 
+   font-family: "Roboto", sans-serif;  
+   font-size: 13px;
+   padding: 10px; 
+}
+.form_button:hover{
+    color: #ff2f92;
+    background-color: white;
+    border: 1px solid  #ff2f92; 
+}
+.b1
+{
+     margin: 0 auto;
+    width: 50%;
+}
+.logo
+{
+    display: none;
+}
+.logo_992
+{
+    display: none;
+}
+.footer_menu
+{
+    margin-top: 25px;
+}
+.design
+{
+    display: none;
+}
+.design1
+{
+    display: none;
+}
+.menusize
+ {
+    font-size: 12px;
+}
+.mcolor
+    {
+        color: black;
+    }
+    .mcolor:hover
+    {
+       color: #ff2f92;
+    }
+.formwidth
+{
+    width: 95%;
+}
+@media(min-width:768px)
+{
+    .time_weight
+    {
+        width: 50%;
+    }
+    .logo{
+        display: block;
+    }
+    .formwidth
+    {
+    width: 80%;
+    }
+}
+@media(min-width:992px)
+{
+    .logo_992
+    {
+        display: block;
+    }
+    
+    .wedding1
+    {
+        width: 100%;
+    }
+    .wedding2
+    {
+        width: 95%;
+    }
+    .arrengement
+    {
+    width: 20%;
+    }
+    .footer_menu
+    {
+        width: 75%;
+        margin: 0 auto;
+        margin-top: 30px;  
+    }
+    .footer_logo
+    {
+        width: 35%;
+        margin: 0 auto;
+    /* border: 2px solid red; */
+    
+    }
+    .logo1
+    {
+    padding-top: 80px;
+    }
+    .distance
+    {
+        margin-top: 80px;
+    }
+    .image
+    {
+        height: 600px;
+    }
+    .design
+    {
+        padding-top: 130px;
+        display: block;
+    }
+    .couple_name
+    {
+        padding-top: 30px;
+    }
+    .name{
+        font-size: 48px;
+    }
+    .design1
+    {
+        display: block;
+    }
+    .menulist 
+    {
+        list-style-type: none;
+        width: 80%;
+        margin:  0 auto;
+        /* border: 1px solid red; */
+        margin-top: 7px ;  
+    }
+    .menusize
+    {
+        font-size: 12px;
+    }
+    
+    .menu
+    {
+        width:60%;  
+    }
+    .mcolor
+    {
+        color: black;
+    }
+    .mcolor:hover
+    {
+       color: #ff2f92;
+    }
+    .formwidth
+    {
+    width: 50%;
+    }
+    .reservation > h2
+    {
+    font-size: 36px;
+    }
+}
